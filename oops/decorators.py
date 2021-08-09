@@ -29,7 +29,7 @@ class Employee:
             start = time.time()
             result = func(*args,**kwargs)
             end = time.time()
-            print(func.__name__ + " took " + str((end-start)*1000) + "mil sec")
+            print(func.__name__ + " took " + str((end-start)) + "mil sec")
             return result
         return wrapper
 
@@ -71,8 +71,8 @@ print('------------------- Employee - Ravi ----------------------')
 emp_ravi = Employee('Ravi', 'Data Engineering')
 print(emp_ravi)
 print(emp_ravi.job())
-# print(emp_ravi.calc_cube(range(1000)))
-# print(emp_ravi.calc_bonus(range(10000, 11000)))
+print(emp_ravi.calc_cube(range(1000)))
+print(emp_ravi.calc_bonus(range(10000, 11000)))
 print()
 
 # Creating a Data Science Employee instance

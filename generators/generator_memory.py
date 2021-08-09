@@ -32,8 +32,8 @@ def people_generator(num_people):
 
 t1 = time.process_time()
 
-# people = people_list(10000)
-people = people_generator(10000)
+# people = people_list(1000000)
+people = people_generator(1000000)
 # people = list(people_generator(1000000))
 
 for person in people:

@@ -45,3 +45,6 @@ print('------------------- Employee - Roshith ---------------------')
 emp_roshith = Employee('Roshith', 'Data Engineering')
 print(emp_roshith)
 
+emp_binod = Employee('Binod', 'Data Engineering')
+print(emp_binod)
+
